@@ -13,7 +13,7 @@ These instructions will help you set up a development environment and run the ap
 
 ```bash
 
-    git clone https://github.com/jayanth2308/DappLooker.git
+    git clone https://github.com/jayanth2308/shop.git
 
 ```
 
