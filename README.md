@@ -76,7 +76,7 @@ second run this command
 
      npx json-server --watch db.json --port 3001
 ```
-the jsonserver will start at PORT:3000
+the jsonserver will start at PORT:3001
 
 The application runs at PORT:5173
 
