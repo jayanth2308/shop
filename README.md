@@ -45,7 +45,7 @@ To start the development server and run the application, use the following comma
 
 
 ```
-after installing package run this command in the second terminal
+after installing package run this command in the first terminal
 ```bash
 
      npx json-server --watch db.json --port 3001
