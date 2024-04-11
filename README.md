@@ -67,12 +67,7 @@ second run this command
 ```
 the jsonserver will start at PORT:3000
 
-The Client application looks like this
-<div align="center">
 
-   <img src="/Output.png"/>
-
-</div>
 
 ## Features
 
