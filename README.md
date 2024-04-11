@@ -26,7 +26,7 @@ These instructions will help you set up a development environment and run the ap
 
 ```
 
-3. Install the project dependencies Seperately for frontend and json-server.
+3. Install the project dependencies Seperately for the client and json-server.
 
 ```bash
 
