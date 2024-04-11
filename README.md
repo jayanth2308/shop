@@ -38,19 +38,7 @@ These instructions will help you set up a development environment and run the ap
 
 To start the development server and run the application, use the following commands
 
-```bash
-
-     npm run dev
-
-```
-and also run the json server  in another second terminal by  following this commands
-
-```bash
-
-   cd client
-
-```
-
+1.Run the json server in the first terminal 
 ```bash
 
      npm install json-server --save-dev
@@ -63,7 +51,20 @@ after installing package run this command in the second terminal
      npx json-server --watch db.json --port 3001
 
 ```
-## In case  if u you're encountering a security error related to running scripts in PowerShell.first run this command
+2.Now open another terminal and run the following commands
+```bash
+
+   cd client
+
+```
+
+```bash
+
+     npm run dev
+
+```
+
+## In case  if u you're encountering a security error related to running scripts in PowerShell while executing json-server.first run this command
 
 ```bash
 
@@ -74,7 +75,7 @@ after installing package run this command in the second terminal
 second run this command
 ```bash
 
-     npx json-server --watch db.json --port 3001
+     npx json-server --watch db.json --port 3000
 ```
 the jsonserver will start at PORT:3001
 
