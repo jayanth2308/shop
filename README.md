@@ -19,18 +19,14 @@ These instructions will help you set up a development environment and run the ap
 
 2. Navigate to the project directory.
 
-```bash
 
-   cd SHOPPINGAPP
-
-```
 ```bash
 
    cd client
 
 ```
 
-3. Install the project dependencies Seperately for frontend and backend.
+3. Install the project dependencies Seperately for frontend and json-server.
 
 ```bash
 
@@ -47,27 +43,42 @@ To start the development server and run the application, use the following comma
      npm run dev
 
 ```
-and also run the json server in another terminal
+and also run the json server  in another second terminal by  following this commands
+
 ```bash
 
-     npm json-server --watch db.json
+   cd client
 
 ```
-if u you're encountering a security error related to running scripts in PowerShell.first run this command
+
 ```bash
 
-     npm json-server --watch db.json
+     npm install json-server --save-dev
+
+
+```
+after installing package run this command in the second terminal
+```bash
+
+     npx json-server --watch db.json --port 3001
+
+```
+## In case  if u you're encountering a security error related to running scripts in PowerShell.first run this command
+
+```bash
+
+    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 
 ```
 second run this command
 ```bash
 
-     npm json-server --watch db.json
-
+     npx json-server --watch db.json --port 3001
 ```
 the jsonserver will start at PORT:3000
 
-
+The application runs at PORT:5173
 
 ## Features
 
